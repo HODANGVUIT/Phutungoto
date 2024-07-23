@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/LandingPageAmThuc/static/css/main.01856068.css",
+    "main.js": "/LandingPageAmThuc/static/js/main.08de94e2.js",
+    "static/media/home-banner-image.png": "/LandingPageAmThuc/static/media/home-banner-image.a0e6be97a96dd661416b.png",
+    "static/media/about-background-image.png": "/LandingPageAmThuc/static/media/about-background-image.c79c89d53dc399d72cec.png",
+    "static/media/hodangvu-image.png": "/LandingPageAmThuc/static/media/hodangvu-image.63cec84e1c3fd84ad90d.png",
+    "static/media/home-banner-background.png": "/LandingPageAmThuc/static/media/home-banner-background.585600da7ff85661555e.png",
+    "static/media/Logo.svg": "/LandingPageAmThuc/static/media/Logo.e04f4319ea0059a833b1ca8d03810b60.svg",
+    "index.html": "/LandingPageAmThuc/index.html",
+    "main.01856068.css.map": "/LandingPageAmThuc/static/css/main.01856068.css.map",
+    "main.08de94e2.js.map": "/LandingPageAmThuc/static/js/main.08de94e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01856068.css",
+    "static/js/main.08de94e2.js"
+  ]
+}
