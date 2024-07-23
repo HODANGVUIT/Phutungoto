@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://hodangvuit.github.io/LandingPageAmThuc",
+  "homepage": "https://hodangvuit.github.io/Phutungoto",
   "eslintConfig": {
     "extends": [
       "react-app",
