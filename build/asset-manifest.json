@@ -1,18 +1,37 @@
 {
   "files": {
-    "main.css": "/LandingPageAmThuc/static/css/main.01856068.css",
-    "main.js": "/LandingPageAmThuc/static/js/main.08de94e2.js",
-    "static/media/home-banner-image.png": "/LandingPageAmThuc/static/media/home-banner-image.a0e6be97a96dd661416b.png",
-    "static/media/about-background-image.png": "/LandingPageAmThuc/static/media/about-background-image.c79c89d53dc399d72cec.png",
-    "static/media/hodangvu-image.png": "/LandingPageAmThuc/static/media/hodangvu-image.63cec84e1c3fd84ad90d.png",
-    "static/media/home-banner-background.png": "/LandingPageAmThuc/static/media/home-banner-background.585600da7ff85661555e.png",
-    "static/media/Logo.svg": "/LandingPageAmThuc/static/media/Logo.e04f4319ea0059a833b1ca8d03810b60.svg",
-    "index.html": "/LandingPageAmThuc/index.html",
-    "main.01856068.css.map": "/LandingPageAmThuc/static/css/main.01856068.css.map",
-    "main.08de94e2.js.map": "/LandingPageAmThuc/static/js/main.08de94e2.js.map"
+    "main.css": "/Phutungoto/static/css/main.8fab6554.css",
+    "main.js": "/Phutungoto/static/js/main.e6e6b9d7.js",
+    "static/media/about-background-image.png": "/Phutungoto/static/media/about-background-image.360aa38325bae5aaea04.png",
+    "static/media/home-banner-image.png": "/Phutungoto/static/media/home-banner-image.49eb76acf9164abcea8f.png",
+    "static/media/denpha.jpg": "/Phutungoto/static/media/denpha.758243f395ac8ea826e4.jpg",
+    "static/media/banepland.jpg": "/Phutungoto/static/media/banepland.60503bd19de5e209b058.jpg",
+    "static/media/Bomdaucrown.jpg": "/Phutungoto/static/media/Bomdaucrown.1593d6136117b01c9cdf.jpg",
+    "static/media/vohopso.jpg": "/Phutungoto/static/media/vohopso.2c17818085a53681469f.jpg",
+    "static/media/home-banner-background.png": "/Phutungoto/static/media/home-banner-background.c916f49a9059d06714b1.png",
+    "static/media/Calangaccent.jpg": "/Phutungoto/static/media/Calangaccent.3d687bcf3e40f81fb57d.jpg",
+    "static/media/Bomdaucanival.jpg": "/Phutungoto/static/media/Bomdaucanival.6833f5032cb5db321188.jpg",
+    "static/media/maphanh.jpg": "/Phutungoto/static/media/maphanh.00748120ce4d656cd0ea.jpg",
+    "static/media/cambienkhixa.jpg": "/Phutungoto/static/media/cambienkhixa.e3b1b409fbf12d0f7f14.jpg",
+    "static/media/Bomdaurush.jpg": "/Phutungoto/static/media/Bomdaurush.11a88eb29a30b5110c92.jpg",
+    "static/media/trucvolang.jpg": "/Phutungoto/static/media/trucvolang.5a2d924074bc9ca54c31.jpg",
+    "static/media/giamsoc.jpg": "/Phutungoto/static/media/giamsoc.ee6b1c3b2bb3c4fa447c.jpg",
+    "static/media/guongchieuhau.jpg": "/Phutungoto/static/media/guongchieuhau.f35f67b972cbb8296b28.jpg",
+    "static/media/bomtroluc.jpg": "/Phutungoto/static/media/bomtroluc.0c14681172145c8da245.jpg",
+    "static/media/bautroluc.jpg": "/Phutungoto/static/media/bautroluc.90ebcebcd9c1b1d18f9d.jpg",
+    "static/media/Bomchankhong.jpg": "/Phutungoto/static/media/Bomchankhong.b85f8d83984ebb49d39f.jpg",
+    "static/media/Locxangpajero.jpg": "/Phutungoto/static/media/Locxangpajero.b9e0c7f321973052bc70.jpg",
+    "static/media/Cambiengio.jpg": "/Phutungoto/static/media/Cambiengio.3de98ffa5c4663ed01c0.jpg",
+    "static/media/Bomxangfor.jpg": "/Phutungoto/static/media/Bomxangfor.caf70e78f2e570faf29c.jpg",
+    "static/media/hodangvu-image.png": "/Phutungoto/static/media/hodangvu-image.14bc77a0713bfdcc0ecb.png",
+    "static/media/pick-meals-image.png": "/Phutungoto/static/media/pick-meals-image.d437a7782b8df025e6d7.png",
+    "index.html": "/Phutungoto/index.html",
+    "static/media/Logo.svg": "/Phutungoto/static/media/Logo.12c5d720d3dcd97be5b5498f0b4923a3.svg",
+    "main.8fab6554.css.map": "/Phutungoto/static/css/main.8fab6554.css.map",
+    "main.e6e6b9d7.js.map": "/Phutungoto/static/js/main.e6e6b9d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.01856068.css",
-    "static/js/main.08de94e2.js"
+    "static/css/main.8fab6554.css",
+    "static/js/main.e6e6b9d7.js"
   ]
 }

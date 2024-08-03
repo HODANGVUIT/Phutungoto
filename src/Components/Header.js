@@ -20,7 +20,7 @@ import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 
-const Navbar = () => {
+const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const [openLogin, setOpenLogin] = useState(false);
   const [openRegister, setOpenRegister] = useState(false);
@@ -191,4 +191,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

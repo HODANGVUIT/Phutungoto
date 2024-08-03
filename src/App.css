@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Reem Kufi", sans-serif !important;
+  font-family: "Judson", sans-serif !important;
 }
 img {
   max-width: 100%;
@@ -14,15 +14,11 @@ img {
   max-width: 1900px;
   margin: 0rem auto;
 }
-/* src/App.css */
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
 
 body {
   background-color: #f6f6f6;
 }
+
 
 .App-header, .App-footer {
   background-color: #333;
@@ -56,21 +52,6 @@ body {
 
   .App-main {
     padding: 0.5em;
-  }
-}
-
-/* Styles for phones and very small screens */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-
-  .App-header, .App-footer {
-    padding: 0.3em;
-  }
-
-  .App-main {
-    padding: 0.3em;
   }
 }
 
@@ -122,6 +103,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 1000;
+  font-weight: 700;
 }
 
 .nav-logo-container img {
@@ -157,10 +139,11 @@ nav {
   cursor: pointer;
 }
 
+
 .primary-button {
   padding: 10px 20px;
   border: none;
-  background-color:#0056b3;
+  background-color: #0056b3;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -244,23 +227,24 @@ nav {
 .secondary-button:hover {
   background-color: #8B4513;
 }
-.about-section-container {
+
+.introduce-section-container {
   margin-top: 20rem;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.about-background-image-container {
+.introduce-background-image-container {
   position: absolute;
   left: -150px;
   z-index: -2;
 }
-.about-section-image-container {
+.introduce-section-image-container {
   flex: 0.9;
   margin-right: 1rem;
 }
-.about-section-text-container {
+.introduce-section-text-container {
   flex: 1;
   justify-content: center;
   display: flex;
@@ -271,7 +255,7 @@ nav {
   color: #fe9e0d;
   font-size: 2rem;
 }
-.about-buttons-container {
+.introduce-buttons-container {
   margin-top: 2rem;
   display: flex;
 }
@@ -294,6 +278,7 @@ nav {
   font-size: 3rem;
   margin-right: 1rem;
 }
+
 .contact-page-wrapper h1 {
   max-width: 900px !important;
 }
@@ -357,7 +342,7 @@ nav {
   color: #4c4c4c;
   cursor: pointer;
 }
-.testimonial-section-bottom {
+.evaluate-section-bottom {
   margin-top: 2rem;
   background-color: white;
   padding: 1.5rem 2rem;
@@ -369,25 +354,26 @@ nav {
   flex-direction: column;
   text-align: center;
 }
-.testimonial-section-bottom {
+.evaluate-section-bottom {
   margin: 2rem auto;
   background-color:white;
 }
-.testimonial-section-bottom p {
+.evaluate-section-bottom p {
   font-weight: 700;
   color: #515151;
   max-width: 500px;
   font-size: 1.1rem;
   margin: 2rem 0rem;
 }
-.testimonials-stars-container svg {
+.evaluate-stars-container svg {
   margin: 0rem 0.25rem;
   font-size: 1.5rem;
   color: #fe9e0d;
 }
-.testimonial-section-bottom h2 {
+.evaluate-section-bottom h2 {
   margin-top: 1.5rem;
 }
+
 .work-section-wrapper {
   margin-top: 15rem;
 }
@@ -487,6 +473,12 @@ nav {
   color: #333;
   margin: 10px 0;
 }
+.product-description {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
 
 .add-to-cart {
   margin-top: 10px;
@@ -531,8 +523,6 @@ nav {
   background-color: #0056b3;
 }
 
-
-
 .add-to-cart {
     background-color: #ff5733;
     color: white;
@@ -574,7 +564,7 @@ nav {
     max-width: 450px;
   }
   .home-banner-container,
-  .about-section-container {
+  .introduce-section-container {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -583,7 +573,7 @@ nav {
     flex-direction: column;
   }
   .home-image-section,
-  .about-section-image-container {
+  .introduce-section-image-container {
     width: 100%;
     max-width: 400px;
   }
@@ -596,7 +586,7 @@ nav {
     max-width: 80%;
   }
   .home-text-section,
-  .about-section-text-container {
+  .introduce-section-text-container {
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
@@ -606,10 +596,10 @@ nav {
     padding: 0.8rem 2rem;
     cursor: pointer;
   }
-  .about-section-container {
+  .introduce-section-container {
     margin-top: 5rem !important;
   }
-  .about-buttons-container {
+  .introduce-buttons-container {
     justify-content: center;
     flex-direction: column;
   }
@@ -624,7 +614,7 @@ nav {
   .watch-video-button svg {
     margin-right: 0.5rem !important;
   }
-  .about-section-image-container {
+  .introduce-section-image-container {
     margin-right: 0rem !important;
   }
   .work-section-wrapper {
@@ -717,7 +707,8 @@ nav {
 
 @media (max-width: 600px) {
   .home-bannerImage-container,
-  .about-background-image-container {
+  .introduce-background-image-container {
     display: none;
   }
 }
+

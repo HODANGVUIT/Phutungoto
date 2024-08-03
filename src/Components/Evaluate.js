@@ -15,13 +15,13 @@ const Evaluate = () => {
         Một đánh giá toàn diện và chi tiết sẽ giúp xác định rõ những điểm cần duy trì và những khía cạnh cần điều chỉnh, từ đó mang lại sự phát triển bền vững và hiệu quả.
         </p>
       </div>
-      <div className="testimonial-section-bottom">
+      <div className="evaluate-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
         Phụ tùng tại đây thực sự ấn tượng với chất lượng tuyệt vời và giá mềm. Cách lắp ráp chuyên nghiệp và phục vụ chuyên nghiệp. 
         Không gian thoải mái và dịch vụ nhiệt tình làm tăng thêm sự hài lòng của tôi.
         </p>
-        <div className="testimonials-stars-container">
+        <div className="evaluate-stars-container">
           <AiFillStar />
           <AiFillStar />
           <AiFillStar />
