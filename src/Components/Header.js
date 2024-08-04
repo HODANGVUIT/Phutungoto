@@ -19,43 +19,24 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const [openLogin, setOpenLogin] = useState(false);
   const [openRegister, setOpenRegister] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const openDropdown = Boolean(anchorEl);
 
   const menuOptions = [
-    {
-      text: "Home",
-      icon: <HomeIcon />,
-      to: "home"
-    },
-    {
-      text: "About",
-      icon: <InfoIcon />,
-      to: "introduce"
-    },
-    {
-      text: "Work",
-      icon: <CommentRoundedIcon />,
-      to: "work"
-    },
-    {
-      text: "Product",
-      icon: <CommentRoundedIcon />,
-      to: "product"
-    },
-    {
-      text: "Evaluate",
-      icon: <CommentRoundedIcon />,
-      to: "evaluate"
-    },
-    {
-      text: "Contact",
-      icon: <PhoneRoundedIcon />,
-      to: "contact"
-    },
+    { text: "Home", icon: <HomeIcon />, to: "home" },
+    { text: "About", icon: <InfoIcon />, to: "introduce" },
+    { text: "Work", icon: <CommentRoundedIcon />, to: "work" },
+    { text: "Product", icon: <CommentRoundedIcon />, to: "product" },
+    { text: "Evaluate", icon: <CommentRoundedIcon />, to: "evaluate" },
+    { text: "Contact", icon: <PhoneRoundedIcon />, to: "contact" },
   ];
 
   const handleLoginOpen = () => setOpenLogin(true);
@@ -63,16 +44,47 @@ const Header = () => {
   const handleRegisterOpen = () => setOpenRegister(true);
   const handleRegisterClose = () => setOpenRegister(false);
 
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="Logo" />
       </div>
       <div className="navbar-links-container">
         <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>Trang Chủ</Link>
         <Link to="introduce" spy={true} smooth={true} offset={-70} duration={500}>Giới Thiệu</Link>
         <Link to="work" spy={true} smooth={true} offset={-70} duration={500}>Công Việc</Link>
-        <Link to="product" spy={true} smooth={true} offset={-70} duration={500}>Sản Phẩm</Link>
+        <div className="dropdown">
+          <button onClick={handleClick} className="dropdown-button">
+            Sản Phẩm
+            <ExpandMoreIcon className="dropdown-arrow" />
+          </button>
+          <Menu
+            anchorEl={anchorEl}
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+            PaperProps={{
+              style: {
+                marginTop: 10,
+              },
+            }}
+          >
+            <a href="">Phụ tùng gầm</a>
+            <a href="">Phụ tùng máy</a>
+            <a href="">Phụ tùng thân vỏ</a>
+            <a href="">Phụ tùng điện</a>
+            <a href="">Phụ tùng điều hoà</a>
+            <a href="">Phụ tùng trợ</a>
+            <a href="">Danh sách hàng về chi tiết</a>
+          </Menu>
+        </div>
         <Link to="evaluate" spy={true} smooth={true} offset={-70} duration={500}>Đánh Giá</Link>
         <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>Liên Hệ</Link>
         <BsCart2 className="navbar-cart-icon" />

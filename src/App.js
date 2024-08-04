@@ -7,6 +7,7 @@ import Evaluate from "./Components/Evaluate";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Product from './Components/Product';
+import { Router, Routes } from 'react-router-dom';
 
 function App() {
   const [showScroll, setShowScroll] = useState(false);
@@ -30,8 +31,10 @@ function App() {
     };
   }, [showScroll]);
 
+
   return (
-    <div className="App">
+    <div className="App"> 
+    {/* <Router><Routes><Route path="/Phutunggam" element={<Phutunggam></Phutunggam>}></Route> */}
       <Home />
       <Introduce />
       <Work />
@@ -46,6 +49,7 @@ function App() {
       >
         &#8679;
       </button>
+      {/* </Routes></Router> */}
     </div>
   );
 }
