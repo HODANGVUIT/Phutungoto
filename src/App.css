@@ -368,6 +368,7 @@ nav {
   font-size: 1.3rem;
   padding: 0.5rem 1rem;
 }
+
 .footer-wrapper {
   margin: 6rem 0rem;
   display: flex;
@@ -771,3 +772,37 @@ nav {
     display: none;
   }
 }
+
+
+.trademark-wrapper {
+  text-align: center;
+  padding: 100px;
+}
+
+.trademark-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.trademark-scroll-container {
+  overflow-x: auto;            
+  border: 2px solid #000;   
+  border-radius: 8px;         
+  padding: 50px;
+  max-width: max-content;
+}
+
+.trademark-container {
+  display: flex;        
+  width: calc(100px * 7 + 10px * 6); 
+  gap: 10px;          
+}
+
+.trademark-logo {
+  max-width: 105px;      
+  height: auto;
+}
+
+
+

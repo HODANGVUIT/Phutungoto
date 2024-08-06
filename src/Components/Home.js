@@ -9,6 +9,7 @@ import Product from "./Product";
 import Evaluate from "./Evaluate";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Trademark from "./Trademark";
 
 const Home = () => {
   return (
@@ -46,6 +47,7 @@ const Home = () => {
    <Evaluate></Evaluate>
    <Contact></Contact>
    <Footer></Footer>
+   <Trademark></Trademark>
     </section>
   );
 };

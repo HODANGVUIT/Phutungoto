@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import "./App.css";
 import Home from "./Components/Home";
-import Introduce from "./Components/Introduce";
-import Work from "./Components/Work";
-import Evaluate from "./Components/Evaluate";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import Product from './Components/Product';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Phutunggam from "./Pages/Phutunggam/Phutunggam"
+import Phutunggam from "./Pages/Phutunggam/Phutunggam";
+import Phutungmay from "./Pages/Phutungmay/Phutungmay";
+import Phutungdien from "./Pages/Phutungdien/Phutungdien";
+import Phutungdieuhoa from "./Pages/Phutungdieuhoa/Phutungdieuhoa";
+import Phutungthanvo from "./Pages/Phutungthanvo/Phutungthanvo";
+import Phutungtro from "./Pages/Phutungtro/Phutungtro";
 
 function App() {
   const [showScroll, setShowScroll] = useState(false);
@@ -39,6 +38,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Phutunggam" element={<Phutunggam />} />
+        <Route path="/Phutungmay" element={<Phutungmay />} />
+        <Route path="/Phutungdien" element={<Phutungdien />} />
+        <Route path="/Phutungdieuhoa" element={<Phutungdieuhoa />} />
+        <Route path="/Phutungthanvo" element={<Phutungthanvo />} />
+        <Route path="/Phutungtro" element={<Phutungtro/>} />
       </Routes>
       <button
         className="scrollTop"

@@ -40,6 +40,7 @@ const Header = () => {
     { text: "Contact", icon: <PhoneRoundedIcon />, to: "contact" },
   ];
 
+
   const handleLoginOpen = () => setOpenLogin(true);
   const handleLoginClose = () => setOpenLogin(false);
   const handleRegisterOpen = () => setOpenRegister(true);
@@ -86,20 +87,17 @@ const Header = () => {
             <MenuItem component="a" href="phutungmay">
               Phụ tùng máy
             </MenuItem>
-            <MenuItem component="a" href="#">
+            <MenuItem component="a" href="phutungthanvo">
               Phụ tùng thân vỏ
             </MenuItem>
-            <MenuItem component="a" href="#">
+            <MenuItem component="a" href="phutungdien">
               Phụ tùng điện
             </MenuItem>
-            <MenuItem component="a" href="#">
+            <MenuItem component="a" href="phutungdieuhoa">
               Phụ tùng điều hoà
             </MenuItem>
-            <MenuItem component="a" href="#">
-              Phụ tùng trợ
-            </MenuItem>
-            <MenuItem component="a" href="#">
-              Danh sách hàng về chi tiết
+            <MenuItem component="a" href="phutungtro">
+              Phụ tùng phụ trợ
             </MenuItem>
           </Menu>
         </div>
