@@ -1,0 +1,128 @@
+/* Đảm bảo body và html có chiều cao đầy đủ */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  min-height: 100vh;
+  margin: 0rem auto;
+  width: 85vw;
+  max-width: 1900px;
+}
+
+.Phutunggam-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fe9e0d;
+  margin-top: 100px;
+}
+
+
+.Phutunggam-list-container {
+  margin-top: 20px;
+  color: #000000;
+}
+
+
+.Phutunggam-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Phutunggam-item {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.Phutunggam-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+
+.Phutunggam-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 5px;
+}
+
+
+.Phutunggam-item p {
+  font-size: 1em;
+  color: #333;
+  margin: 10px 0;
+}
+
+
+.Phutunggam-description {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Phutunggam-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .Phutunggam-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+.load-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: brown;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: #8B4513;
+}

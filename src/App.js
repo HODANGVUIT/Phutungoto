@@ -7,7 +7,8 @@ import Evaluate from "./Components/Evaluate";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Product from './Components/Product';
-import { Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Phutunggam from "./Pages/Phutunggam/Phutunggam"
 
 function App() {
   const [showScroll, setShowScroll] = useState(false);
@@ -33,24 +34,21 @@ function App() {
 
 
   return (
-    <div className="App"> 
-    {/* <Router><Routes><Route path="/Phutunggam" element={<Phutunggam></Phutunggam>}></Route> */}
-      <Home />
-      <Introduce />
-      <Work />
-      <Product />
-      <Evaluate />
-      <Contact />
-      <Footer />
+    <Router>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Phutunggam" element={<Phutunggam />} />
+      </Routes>
       <button
         className="scrollTop"
         onClick={scrollTop}
-        style={{ display: showScroll ? 'flex' : 'none' }}
+        style={{ display: showScroll ? "flex" : "none" }}
       >
         &#8679;
       </button>
-      {/* </Routes></Router> */}
     </div>
+  </Router>
   );
 }
 

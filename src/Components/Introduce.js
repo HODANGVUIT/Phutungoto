@@ -3,7 +3,7 @@ import AboutBackground from "../Assets/introduce-background.png";
 import AboutBackgroundImage from "../Assets/introduce-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
-const introduce = () => {
+const Introduce = () => {
   return (
     <section id="introduce">
       {/* Nội dung của giới thiệu */}
@@ -38,4 +38,4 @@ const introduce = () => {
   );
 };
 
-export default introduce;
+export default Introduce;

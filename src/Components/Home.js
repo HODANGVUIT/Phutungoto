@@ -3,6 +3,12 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "./Header";
 import { FiArrowRight } from "react-icons/fi";
+import Introduce from "./Introduce";
+import Work from "./Work";
+import Product from "./Product";
+import Evaluate from "./Evaluate";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -33,6 +39,13 @@ const Home = () => {
         </div>
       </div>
     </div>
+
+   <Introduce></Introduce>
+   <Work></Work>
+   <Product></Product>
+   <Evaluate></Evaluate>
+   <Contact></Contact>
+   <Footer></Footer>
     </section>
   );
 };

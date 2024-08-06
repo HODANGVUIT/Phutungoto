@@ -35,12 +35,11 @@ section {
   margin-bottom: 2em;
 }
 
-/* Default styles for larger screens */
+
 body {
   font-size: 16px;
 }
 
-/* Styles for tablets and smaller screens */
 @media (max-width: 768px) {
   body {
     font-size: 14px;
@@ -483,7 +482,7 @@ nav {
   font-weight: 600;
 }
 
-/* Tệp Product.css */
+
 .product-container {
   padding: 20px;
   background-color: #f9f9f9;
@@ -529,7 +528,6 @@ nav {
   margin: 0 auto 10px;
   border-radius: 5px;
 }
-
 .product-item p {
   font-size: 1em;
   color: #333;
@@ -773,4 +771,3 @@ nav {
     display: none;
   }
 }
-

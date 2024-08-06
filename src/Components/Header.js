@@ -22,6 +22,7 @@ import TextField from "@mui/material/TextField";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link as RouterLink } from "react-router-dom"
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -55,10 +56,13 @@ const Header = () => {
   return (
     <nav>
       <div className="nav-logo-container">
+        <RouterLink to="/" spy={true} smooth={true} offset={-70} duration={500}>
         <img src={Logo} alt="Logo" />
+        </RouterLink>
       </div>
+      
       <div className="navbar-links-container">
-        <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>Trang Chủ</Link>
+        <RouterLink to="/" spy={true} smooth={true} offset={-70} duration={500}>Trang Chủ</RouterLink>
         <Link to="introduce" spy={true} smooth={true} offset={-70} duration={500}>Giới Thiệu</Link>
         <Link to="work" spy={true} smooth={true} offset={-70} duration={500}>Công Việc</Link>
         <div className="dropdown">
@@ -76,13 +80,27 @@ const Header = () => {
               },
             }}
           >
-            <a href="">Phụ tùng gầm</a>
-            <a href="">Phụ tùng máy</a>
-            <a href="">Phụ tùng thân vỏ</a>
-            <a href="">Phụ tùng điện</a>
-            <a href="">Phụ tùng điều hoà</a>
-            <a href="">Phụ tùng trợ</a>
-            <a href="">Danh sách hàng về chi tiết</a>
+           <MenuItem component="a" href="phutunggam">
+              Phụ tùng gầm
+            </MenuItem>
+            <MenuItem component="a" href="phutungmay">
+              Phụ tùng máy
+            </MenuItem>
+            <MenuItem component="a" href="#">
+              Phụ tùng thân vỏ
+            </MenuItem>
+            <MenuItem component="a" href="#">
+              Phụ tùng điện
+            </MenuItem>
+            <MenuItem component="a" href="#">
+              Phụ tùng điều hoà
+            </MenuItem>
+            <MenuItem component="a" href="#">
+              Phụ tùng trợ
+            </MenuItem>
+            <MenuItem component="a" href="#">
+              Danh sách hàng về chi tiết
+            </MenuItem>
           </Menu>
         </div>
         <Link to="evaluate" spy={true} smooth={true} offset={-70} duration={500}>Đánh Giá</Link>
