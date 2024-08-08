@@ -128,7 +128,6 @@ nav {
 
 .navbar-links-container a:hover {
   color: #007BFF;
-  border-color: #007BFF;
 }
 
 .navbar-cart-icon {
@@ -178,14 +177,14 @@ nav {
 .MuiMenuItem-root {
   font-size: 16px;
 }
-/* Phần tử dropdown chứa chữ và dấu mũi tên */
+
 .dropdown {
   position: relative;
-  display: inline-flex; /* Sử dụng inline-flex để căn chỉnh theo hàng ngang */
-  align-items: center; /* Căn chỉnh theo chiều dọc */
+  display: inline-flex;
+  align-items: center; 
 }
 
-/* Nút dropdown */
+
 .dropdown-button {
   background: none;
   border: none;
@@ -201,18 +200,18 @@ nav {
   font-weight: 700;
 }
 
-/* Dấu mũi tên */
+
 .dropdown-button .arrow {
   font-size: 16px; 
   margin-left: 5px; 
 }
 
-/* Hiệu ứng hover */
+
 .dropdown-button:hover {
   color: #007BFF;
 }
 
-/* Menu dropdown */
+
 .dropdown-menu {
   display: none; 
   position: absolute;
@@ -224,7 +223,7 @@ nav {
   z-index: 1000;
 }
 
-/* Hiển thị menu khi hover */
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }

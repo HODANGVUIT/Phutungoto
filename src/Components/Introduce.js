@@ -6,7 +6,6 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 const Introduce = () => {
   return (
     <section id="introduce">
-      {/* Nội dung của giới thiệu */}
     <div className="introduce-section-container">
       <div className="introduce-background-image-container">
         <img src={AboutBackground} alt="" />

@@ -5,7 +5,6 @@ import { AiFillStar } from "react-icons/ai";
 const Evaluate = () => {
   return (
     <section id="evaluate">
-      {/* Nội dung của đánh giá */}
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Đánh giá</p>

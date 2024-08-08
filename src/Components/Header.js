@@ -16,6 +16,8 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+import Inventory2Icon from "@mui/icons-material/Inventory2";
+import CreateIcon from '@mui/icons-material/Create';
 import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
@@ -33,10 +35,10 @@ const Header = () => {
 
   const menuOptions = [
     { text: "Home", icon: <HomeIcon />, to: "home" },
-    { text: "About", icon: <InfoIcon />, to: "introduce" },
+    { text: "Introduce", icon: <InfoIcon />, to: "introduce" },
     { text: "Work", icon: <CommentRoundedIcon />, to: "work" },
-    { text: "Product", icon: <CommentRoundedIcon />, to: "product" },
-    { text: "Evaluate", icon: <CommentRoundedIcon />, to: "evaluate" },
+    { text: "Product", icon: <Inventory2Icon />, to: "product" },
+    { text: "Evaluate", icon: <CreateIcon />, to: "evaluate" },
     { text: "Contact", icon: <PhoneRoundedIcon />, to: "contact" },
   ];
 
