@@ -88,7 +88,6 @@ body {
   background-color: #000000;
 }
 
-/* Navbar.css */
 
 nav {
   display: flex;
@@ -105,17 +104,17 @@ nav {
   font-weight: 700;
 }
 
-.nav-logo-container img {
+.header-logo-container img {
   height: 50px;
 }
 
-.navbar-links-container {
+.header-links-container {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.navbar-links-container a {
+.header-links-container a {
   text-decoration: none;
   color: #000;
   font-size: 17px;
@@ -126,11 +125,11 @@ nav {
   border-radius: 100%;
 }
 
-.navbar-links-container a:hover {
+.header-links-container a:hover {
   color: #007BFF;
 }
 
-.navbar-cart-icon {
+.header-cart-icon {
   font-size: 24px;
   margin-left: 20px;
   cursor: pointer;
@@ -151,15 +150,15 @@ nav {
   background-color: #004494;
 }
 
-.navbar-menu-container {
+.header-menu-container {
   display: none;
 }
 
 @media (max-width: 768px) {
-  .navbar-links-container {
+  .header-links-container {
     display: none;
   }
-  .navbar-menu-container {
+  .header-menu-container {
     display: block;
   }
 }
@@ -384,9 +383,7 @@ nav {
   margin-right: 1.25rem;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
+
 .footer-section-two {
   flex: 1;
   display: flex;
@@ -599,7 +596,7 @@ nav {
 
 
 @media (max-width: 1000px) {
-  .navbar-links-container a {
+  .header-links-container a {
     margin-right: 1rem;
     font-size: 1rem;
   }
@@ -611,13 +608,13 @@ nav {
   }
 }
 @media (max-width: 800px) {
-  .nav-logo-container {
+  .header-logo-container {
     max-width: 140px;
   }
-  .navbar-links-container {
+  .header-links-container {
     display: none;
   }
-  .navbar-menu-container {
+  .header-menu-container {
     display: flex;
   }
   .home-bannerImage-container {

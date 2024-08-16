@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Logo from "../Assets/Logo.svg";
@@ -58,13 +58,13 @@ const Header = () => {
 
   return (
     <nav>
-      <div className="nav-logo-container">
+      <div className="header-logo-container">
         <RouterLink to="/" spy={true} smooth={true} offset={-70} duration={500}>
         <img src={Logo} alt="Logo" />
         </RouterLink>
       </div>
       
-      <div className="navbar-links-container">
+      <div className="header-links-container">
         <RouterLink to="/" spy={true} smooth={true} offset={-70} duration={500}>Trang Chủ</RouterLink>
         <Link to="introduce" spy={true} smooth={true} offset={-70} duration={500}>Giới Thiệu</Link>
         <Link to="work" spy={true} smooth={true} offset={-70} duration={500}>Công Việc</Link>
@@ -105,11 +105,11 @@ const Header = () => {
         </div>
         <Link to="evaluate" spy={true} smooth={true} offset={-70} duration={500}>Đánh Giá</Link>
         <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>Liên Hệ</Link>
-        <BsCart2 className="navbar-cart-icon" />
+        <BsCart2 className="header-cart-icon" />
         <button className="primary-button" onClick={handleRegisterOpen}>Đăng Ký</button>
         <button className="primary-button" onClick={handleLoginOpen}>Đăng Nhập</button>
       </div>
-      <div className="navbar-menu-container">
+      <div className="header-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div>
       <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">

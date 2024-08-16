@@ -8,8 +8,8 @@ import Work from "./Work";
 import Product from "./Product";
 import Evaluate from "./Evaluate";
 import Contact from "./Contact";
-import Footer from "./Footer";
 import Trademark from "./Trademark";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -46,8 +46,8 @@ const Home = () => {
    <Product></Product>
    <Evaluate></Evaluate>
    <Contact></Contact>
-   <Footer></Footer>
    <Trademark></Trademark>
+   <Footer></Footer>
     </section>
   );
 };

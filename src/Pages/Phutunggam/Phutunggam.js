@@ -42,7 +42,7 @@ const Phutunggam = () => {
         { name: 'Chân hộp số Forester', imageUrl: PTG6, description: 'Chân hộp số Forester 2014-2016 - 41022YC000', price: '1,500,000 VND' },
         { name: 'Chắn bùn gầm máy trước Rush', imageUrl: PTG7, description: 'Chắn bùn gầm máy trước Rush 2019 - 51441BZ240', price: '1,500,000 VND' },
         { name: 'Chắn bùn bánh sau Elantra', imageUrl: PTG8, description: 'Chắn bùn bánh sau Elantra 2016 - 86841F2000 - 86842F2000', price: '1,500,000 VND' },
-        { name: 'Cao su treo ống xả Toyota', imageUrl: PTG9, description: 'Cao su treo ống xả Toyota - - 41022AG02B9E', price: '1,500,000 VND' },
+        { name: 'Cao su treo ống xả Toyota', imageUrl: PTG9, description: 'Cao su treo ống xả Toyota 218123N000 - 41022AG02B9E', price: '1,500,000 VND' },
     ];
 
     return (

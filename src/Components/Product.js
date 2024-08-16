@@ -50,10 +50,10 @@ const Product = () => {
         { name: "Cảm biên khí xả", imageUrl: Pro10, description: "Cảm biến khí xả Audi Q7", price: "3,000,000 VND" },
         { name: "Cảm biến gió", imageUrl: Pro11, description: "Cảm biến gió Carnival 2.5 2004", price: "900,000 VND" },
         { name: "Ca lăng Accent", imageUrl: Pro12, description: "Ca lăng Accent 2018", price: "2,000,000 VND" },
-        { name: "Bơm chân không", imageUrl: Pro13, description: "Bơm chân không Porter II - 288104A800", price: "1,000,000 VND" },
+        { name: "Bơm chân không", imageUrl: Pro13, description: "Bơm chân không Porter II - 288104A800 - 482412H000", price: "1,000,000 VND" },
         { name: "Bơm dầu Canival", imageUrl: Pro14, description: "Bơm dầu Carnival 2.5 (Bơm nhớt) - 0K9BV14100D", price: "5,000,000 VND" },
         { name: "Bơm dầu Crown", imageUrl: Pro15, description: "Bơm dầu Crown 3.0 2JZ (Bơm nhớt) - 1510046042", price: "4,000,000 VND" },
-        { name: "Bơm dầu Rush", imageUrl: Pro16, description: "Bơm dầu Rush 2019 (Bơm nhớt) - 11310BZ130", price: "3,000,000 VND" },
+        { name: "Bơm dầu Rush", imageUrl: Pro16, description: "Bơm dầu Rush 2019 (Bơm nhớt) - 310", price: "3,000,000 VND" },
         { name: "Bơm xăng Forte", imageUrl: Pro17, description: "Bơm xăng Forte - 311101M000", price: "3,500,000 VND" },
         { name: "Lọc xăng Pajero", imageUrl: Pro18, description: "Lọc xăng Pajero V45 - MB868452", price: "700,000 VND" }
     ];
